@@ -1,7 +1,15 @@
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
-  background: #fff;
+  background-color: #fff;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
 }
 
 .logo {
@@ -17,30 +25,58 @@ body {
   color: #2e2f42;
 }
 
-ul {
-  list-style-type: none;
-}
+/* .top-box {
+  width: 1440px;
+  height: 72px;
+} */
 
-a {
-  text-decoration: none;
+.nav-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
-
-.addr-email,
-.addr-tel {
-  font-family: "Roboto";
+.nav-link:hover,
+.nav-link:focus {
+  color: #404bbf;
+}
+.addr-link {
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
-
-.studio,
-.portfolio,
-.contacts {
+.addr-link:hover,
+.addr-link:focus {
+  color: #404bbf;
+}
+/* .bg-title {
+  width: 1440px;
+  height: 600px;
+  background: #2e2f42;
+} */
+.title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07143;
+  letter-spacing: 0.02em;
+  /* text-align: center;
+  color: #fff; */
+}
+.btn {
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
+  letter-spacing: 0.04em;
+  color: #fff;
+  background: #4d5ae5;
+}
+.btn:hover,
+.btn:focus {
+  background: #404bbf;
 }
