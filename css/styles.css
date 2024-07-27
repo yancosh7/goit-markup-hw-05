@@ -62,7 +62,7 @@ p {
 .nav-link:focus {
   color: #404bbf;
 }
-.addr-link {
+.address {
   font-style: normal;
   font-family: "inherit";
   font-weight: 400;
@@ -71,8 +71,8 @@ p {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.addr-link:hover,
-.addr-link:focus {
+.address:hover,
+.address:focus {
   color: #404bbf;
 }
 
