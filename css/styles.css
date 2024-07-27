@@ -13,9 +13,10 @@ a {
 }
 
 h2 {
+  text-align: center;
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
@@ -39,9 +40,10 @@ p {
   background: #fff;
 }
 .logo {
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
@@ -61,6 +63,7 @@ p {
   color: #404bbf;
 }
 .addr-link {
+  font-style: normal;
   font-family: "inherit";
   font-weight: 400;
   font-size: 16px;
@@ -78,16 +81,17 @@ p {
   background: #2e2f42;
 }
 .title {
+  text-align: center;
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   color: #fff;
 }
 .btn {
   background: #4d5ae5;
   cursor: pointer;
-  font-family: "inherit";
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -104,12 +108,24 @@ p {
 .our-team {
   background: #f4f4fd;
 }
+.title-team {
+  text-transform: capitalize;
+}
 .card-item {
   background: #fff;
 }
+.title-card {
+  text-align: center;
+}
+.text-card {
+  text-align: center;
+}
 
 /* Our Portfolio */
-.pr-card {
+.prt-title {
+  text-transform: capitalize;
+}
+.prt-card {
   background: #fff;
 }
 
