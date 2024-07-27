@@ -4,7 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Webstudio</title>
+
     <link rel="stylesheet" href="./css/styles.css" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
@@ -22,8 +24,8 @@
   </head>
 
   <body>
-    <header class="top-box">
-      <!-- navbar -->
+    <!-- header -->
+    <header class="header">
       <nav class="navbar">
         <a class="logo" href="./index.html"
           >Web<span class="logo-s">Studio</span></a
@@ -62,47 +64,42 @@
 
     <main>
       <!-- title box -->
-      <section class="title-box">
-        <!-- <img
-          class="bg-title"
-          src="./images/Dark-bg.jpg"
-          alt="Dark background"
-        /> -->
+      <section class="hero-ttl">
         <h1 class="title">Effective Solutions for Your Business</h1>
         <button class="btn" type="button">Order Service</button>
       </section>
 
       <!-- page text -->
       <section class="page-text">
-        <h2 class="page-content">Page content</h2>
-        <ul class="page-text-list">
-          <li class="feature-1">
-            <h3 class="strateg">Strategy</h3>
-            <p class="strateg-text">
+        <h2 class="content-title">Page content</h2>
+        <ul class="pag-cont-list">
+          <li class="pag-cont-item">
+            <h3 class="title-pag-cont">Strategy</h3>
+            <p class="text-pag-cont">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
 
-          <li class="feature-2">
-            <h3 class="punctual">Punctuality</h3>
-            <p class="punctual-text">
+          <li class="pag-cont-item">
+            <h3 class="title-pag-cont">Punctuality</h3>
+            <p class="text-pag-cont">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
 
-          <li class="feature-3">
-            <h3 class="diligen">Diligence</h3>
-            <p class="diligen-text">
+          <li class="pag-cont-item">
+            <h3 class="title-pag-cont">Diligence</h3>
+            <p class="text-pag-cont">
               Research and confirm brands that present the strongest digital
               growth opportunities and minimize risk.
             </p>
           </li>
 
-          <li class="feature-4">
-            <h3 class="techno">Technologies</h3>
-            <p class="techno-text">
+          <li class="pag-cont-item">
+            <h3 class="title-pag-cont">Technologies</h3>
+            <p class="text-pag-cont">
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
             </p>
@@ -114,38 +111,38 @@
       <section class="our-team">
         <h2 class="title-team">Our Team</h2>
         <ul class="team-list">
-          <li class="mark-guerrero">
+          <li class="card-item">
             <img src="./images/img1.jpg" alt="Mark Guerrero" width="264" />
-            <h3 class="mark">Mark Guerrero</h3>
-            <p class="designer">Product Designer</p>
+            <h3 class="title-card">Mark Guerrero</h3>
+            <p class="text-card">Product Designer</p>
           </li>
 
-          <li class="tom-ford">
+          <li class="card-item">
             <img src="./images/img2.jpg" alt="Tom Ford" width="264" />
-            <h3 class="tom">Tom Ford</h3>
-            <p class="developer">Frontend Developer</p>
+            <h3 class="title-card">Tom Ford</h3>
+            <p class="text-card">Frontend Developer</p>
           </li>
 
-          <li class="camila-garcia">
+          <li class="card-item">
             <img src="./images/img3.jpg" alt="Camila Garcia" width="264" />
-            <h3 class="camila">Camila Garcia</h3>
-            <p class="marketing">Marketing</p>
+            <h3 class="title-card">Camila Garcia</h3>
+            <p class="text-card">Marketing</p>
           </li>
 
-          <li class="daniel-wilson">
+          <li class="card-item">
             <img src="./images/img4.jpg" alt="Daniel Wilson" width="264" />
-            <h3 class="daniel">Daniel Wilson</h3>
-            <p class="ui-designer">UI Designer</p>
+            <h3 class="title-card">Daniel Wilson</h3>
+            <p class="text-card">UI Designer</p>
           </li>
         </ul>
       </section>
     </main>
 
     <!-- Our Portfolio -->
-    <section class="our-portfolio">
+    <section class="our-prt">
       <h2 class="portfolio-title">Our Portfolio</h2>
-      <ul class="first-box">
-        <li class="card">
+      <ul class="project-box">
+        <li class="pr-card">
           <img
             src="images/banking-app.jpg"
             alt="Picture. Bank App"
@@ -158,7 +155,7 @@
           </div>
         </li>
 
-        <li class="card">
+        <li class="pr-card">
           <img
             src="images/cashless-payment.jpg"
             alt="Picture. Cashless payments"
@@ -171,7 +168,7 @@
           </div>
         </li>
 
-        <li class="card">
+        <li class="pr-card">
           <img
             src="images/meditation-app.jpg"
             alt="Picture. Meditation App"
@@ -184,8 +181,9 @@
           </div>
         </li>
       </ul>
-      <ul class="second-box">
-        <li class="card">
+
+      <ul class="project-box">
+        <li class="pr-card">
           <img
             src="images/taxi-service.jpg"
             alt="Picture. Taxi Service"
@@ -198,7 +196,7 @@
           </div>
         </li>
 
-        <li class="card">
+        <li class="pr-card">
           <img
             src="images/screen-illustrations.jpg"
             alt="Picture. Screen Illustrations"
@@ -211,7 +209,7 @@
           </div>
         </li>
 
-        <li class="card">
+        <li class="pr-card">
           <img
             src="images/online-courses.jpg"
             alt="Picture. Online Courses"
@@ -229,9 +227,9 @@
     <!-- Footer -->
     <footer class="footer">
       <a class="logo" href="./index.html"
-        >Web<span class="logo-s">Studio</span></a
+        >Web<span class="f-logo-s">Studio</span></a
       >
-      <p class="text-f">
+      <p class="f-text">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
       </p>
