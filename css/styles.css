@@ -44,6 +44,9 @@ p {
   letter-spacing: 0.02em;
   color: #434455;
 }
+img {
+  display: block;
+}
 
 .section {
 }
@@ -205,10 +208,13 @@ body {
 }
 .pag-cont-list {
   display: flex;
-  flex-basis: calc((100% - 72px) / 4);
+
   gap: 24px;
   margin-top: 120px;
   margin-bottom: 120px;
+}
+.pag-cont-item {
+  flex-basis: calc((100% - 72px) / 4);
 }
 .title-pag-cont {
   padding-bottom: 8px;
