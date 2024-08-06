@@ -115,14 +115,12 @@ body {
 .nav-link:focus {
   color: #404bbf;
 }
-.navbar-adr {
-  font-style: normal;
-}
 .addr-list {
   display: flex;
   gap: 24px;
 }
 .address {
+  font-style: normal;
   font-family: "inherit";
   font-weight: 400;
   font-size: 16px;
