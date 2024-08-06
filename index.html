@@ -5,6 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Webstudio</title>
 
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
     <link rel="stylesheet" href="./css/styles.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -14,209 +22,235 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
-      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
   </head>
 
   <body>
     <!-- header -->
     <header class="header">
-      <nav class="navbar">
-        <a class="logo" href="./index.html"
-          >Web<span class="logo-s">Studio</span></a
-        >
+      <div class="container hed-container">
+        <nav class="navbar">
+          <a class="logo" href="./index.html"
+            >Web<span class="logo-s">Studio</span></a
+          >
+          <!-- nav links -->
+          <ul class="navbar-links">
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html">Studio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Contacts</a>
+            </li>
+          </ul>
+        </nav>
 
-        <!-- nav links -->
-        <ul class="navbar-links">
-          <li class="nav-item">
-            <a class="nav-link" href="./index.html">Studio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="">Contacts</a>
-          </li>
-        </ul>
-      </nav>
-
-      <!-- nav address -->
-      <address class="navbar-addr">
-        <ul class="addr-list">
-          <li class="addr-list-item">
-            <a class="address" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li class="addr-list-item">
-            <a class="address" href="tel:+110001111111">+11 (000) 111-11-11</a>
-          </li>
-        </ul>
-      </address>
+        <!-- nav address -->
+        <address class="navbar-addr">
+          <ul class="addr-list">
+            <li class="addr-mail-item">
+              <a class="address" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="addr-tel-item">
+              <a class="address" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
 
     <main>
       <!-- title box -->
-      <section class="hero-ttl">
-        <h1 class="title">Effective Solutions for Your Business</h1>
-        <button class="btn" type="button">Order Service</button>
+      <section class="section ttl-sect">
+        <div class="container hero-ttl">
+          <h1 class="title">Effective Solutions for Your Business</h1>
+          <button class="btn" type="button">Order Service</button>
+        </div>
       </section>
 
       <!-- page text -->
-      <section class="page-text">
-        <h2 class="content-title">Page content</h2>
-        <ul class="pag-cont-list">
-          <li class="pag-cont-item">
-            <h3 class="title-pag-cont">Strategy</h3>
-            <p class="text-pag-cont">
-              Our goal is to identify the business problem to walk away with the
-              perfect and creative solution.
-            </p>
-          </li>
+      <section class="section">
+        <div class="container">
+          <h2 class="content-title visually-hidden">Page content</h2>
+          <ul class="pag-cont-list">
+            <li class="pag-cont-item">
+              <h3 class="title-pag-cont">Strategy</h3>
+              <p class="text-pag-cont">
+                Our goal is to identify the business problem to walk away with
+                the perfect and creative solution.
+              </p>
+            </li>
 
-          <li class="pag-cont-item">
-            <h3 class="title-pag-cont">Punctuality</h3>
-            <p class="text-pag-cont">
-              Bring the key message to the brand's audience for the best price
-              within the shortest possible time.
-            </p>
-          </li>
+            <li class="pag-cont-item">
+              <h3 class="title-pag-cont">Punctuality</h3>
+              <p class="text-pag-cont">
+                Bring the key message to the brand's audience for the best price
+                within the shortest possible time.
+              </p>
+            </li>
 
-          <li class="pag-cont-item">
-            <h3 class="title-pag-cont">Diligence</h3>
-            <p class="text-pag-cont">
-              Research and confirm brands that present the strongest digital
-              growth opportunities and minimize risk.
-            </p>
-          </li>
+            <li class="pag-cont-item">
+              <h3 class="title-pag-cont">Diligence</h3>
+              <p class="text-pag-cont">
+                Research and confirm brands that present the strongest digital
+                growth opportunities and minimize risk.
+              </p>
+            </li>
 
-          <li class="pag-cont-item">
-            <h3 class="title-pag-cont">Technologies</h3>
-            <p class="text-pag-cont">
-              Design practice focused on digital experiences. We bring forth a
-              deep passion for problem-solving.
-            </p>
-          </li>
-        </ul>
+            <li class="pag-cont-item">
+              <h3 class="title-pag-cont">Technologies</h3>
+              <p class="text-pag-cont">
+                Design practice focused on digital experiences. We bring forth a
+                deep passion for problem-solving.
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
 
       <!-- Our Team -->
-      <section class="our-team">
-        <h2 class="title-team">Our Team</h2>
-        <ul class="team-list">
-          <li class="card-item">
-            <img src="./images/img1.jpg" alt="Mark Guerrero" width="264" />
-            <h3 class="title-card">Mark Guerrero</h3>
-            <p class="text-card">Product Designer</p>
-          </li>
+      <section class="section our-team-sect">
+        <div class="container our-team-cont">
+          <h2 class="title-team">Our Team</h2>
+          <ul class="team-list">
+            <li class="card-item">
+              <img src="./images/img1.jpg" alt="Mark Guerrero" width="264" />
+              <div class="card-descrip">
+                <h3 class="title-card">Mark Guerrero</h3>
+                <p class="text-card">Product Designer</p>
+              </div>
+            </li>
 
-          <li class="card-item">
-            <img src="./images/img2.jpg" alt="Tom Ford" width="264" />
-            <h3 class="title-card">Tom Ford</h3>
-            <p class="text-card">Frontend Developer</p>
-          </li>
+            <li class="card-item">
+              <img src="./images/img2.jpg" alt="Tom Ford" width="264" />
+              <div class="card-descrip">
+                <h3 class="title-card">Tom Ford</h3>
+                <p class="text-card">Frontend Developer</p>
+              </div>
+            </li>
 
-          <li class="card-item">
-            <img src="./images/img3.jpg" alt="Camila Garcia" width="264" />
-            <h3 class="title-card">Camila Garcia</h3>
-            <p class="text-card">Marketing</p>
-          </li>
+            <li class="card-item">
+              <img src="./images/img3.jpg" alt="Camila Garcia" width="264" />
+              <div class="card-descrip">
+                <h3 class="title-card">Camila Garcia</h3>
+                <p class="text-card">Marketing</p>
+              </div>
+            </li>
 
-          <li class="card-item">
-            <img src="./images/img4.jpg" alt="Daniel Wilson" width="264" />
-            <h3 class="title-card">Daniel Wilson</h3>
-            <p class="text-card">UI Designer</p>
-          </li>
-        </ul>
+            <li class="card-item">
+              <img src="./images/img4.jpg" alt="Daniel Wilson" width="264" />
+              <div class="card-descrip">
+                <h3 class="title-card">Daniel Wilson</h3>
+                <p class="text-card">UI Designer</p>
+              </div>
+            </li>
+          </ul>
+        </div>
       </section>
 
       <!-- Our Portfolio -->
-      <section class="our-prt">
-        <h2 class="prt-title">Our Portfolio</h2>
-        <ul class="project-box">
-          <li class="prt-card">
-            <img
-              src="./images/banking-app.jpg"
-              alt="Picture. Bank App"
-              width="360"
-              height="300"
-            />
-            <h3 class="title-card">Banking App</h3>
-            <p class="text-card">App</p>
-          </li>
+      <section class="section">
+        <div class="container our-port-cont">
+          <h2 class="prt-title">Our Portfolio</h2>
+          <ul class="project-box">
+            <li class="prt-card">
+              <img
+                src="./images/banking-app.jpg"
+                alt="Picture. Bank App"
+                width="360"
+                height="300"
+              />
+              <div class="description">
+                <h3 class="title-card">Banking App</h3>
+                <p class="text-card">App</p>
+              </div>
+            </li>
 
-          <li class="prt-card">
-            <img
-              src="./images/cashless-payment.jpg"
-              alt="Picture. Cashless payments"
-              width="360"
-              height="300"
-            />
-            <h3 class="title-card">Cashless Payment</h3>
-            <p class="text-card">Marketing</p>
-          </li>
+            <li class="prt-card">
+              <img
+                src="./images/cashless-payment.jpg"
+                alt="Picture. Cashless payments"
+                width="360"
+                height="300"
+              />
+              <div class="description">
+                <h3 class="title-card">Cashless Payment</h3>
+                <p class="text-card">Marketing</p>
+              </div>
+            </li>
 
-          <li class="prt-card">
-            <img
-              src="./images/meditation-app.jpg"
-              alt="Picture. Meditation App"
-              width="360"
-              height="300"
-            />
-            <h3 class="title-card">Meditation App</h3>
-            <p class="text-card">App</p>
-          </li>
+            <li class="prt-card">
+              <img
+                src="./images/meditation-app.jpg"
+                alt="Picture. Meditation App"
+                width="360"
+                height="300"
+              />
+              <div class="description">
+                <h3 class="title-card">Meditation App</h3>
+                <p class="text-card">App</p>
+              </div>
+            </li>
 
-          <li class="prt-card">
-            <img
-              src="./images/taxi-service.jpg"
-              alt="Picture. Taxi Service"
-              width="360"
-              height="300"
-            />
-            <h3 class="title-card">Taxi Service</h3>
-            <p class="text-card">Marketing</p>
-          </li>
+            <li class="prt-card">
+              <img
+                src="./images/taxi-service.jpg"
+                alt="Picture. Taxi Service"
+                width="360"
+                height="300"
+              />
+              <div class="description">
+                <h3 class="title-card">Taxi Service</h3>
+                <p class="text-card">Marketing</p>
+              </div>
+            </li>
 
-          <li class="prt-card">
-            <img
-              src="./images/screen-illustrations.jpg"
-              alt="Picture. Screen Illustrations"
-              width="360"
-              height="300"
-            />
-            <h3 class="title-card">Screen Illustrations</h3>
-            <p class="text-card">Design</p>
-          </li>
+            <li class="prt-card">
+              <img
+                src="./images/screen-illustrations.jpg"
+                alt="Picture. Screen Illustrations"
+                width="360"
+                height="300"
+              />
+              <div class="description">
+                <h3 class="title-card">Screen Illustrations</h3>
+                <p class="text-card">Design</p>
+              </div>
+            </li>
 
-          <li class="prt-card">
-            <img
-              src="./images/online-courses.jpg"
-              alt="Picture. Online Courses"
-              width="360"
-              height="300"
-            />
-            <h3 class="title-card">Online Courses</h3>
-            <p class="text-card">Marketing</p>
-          </li>
-        </ul>
+            <li class="prt-card">
+              <img
+                src="./images/online-courses.jpg"
+                alt="Picture. Online Courses"
+                width="360"
+                height="300"
+              />
+              <div class="description">
+                <h3 class="title-card">Online Courses</h3>
+                <p class="text-card">Marketing</p>
+              </div>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
 
     <!-- Footer -->
     <footer class="footer">
-      <a class="logo" href="./index.html"
-        >Web<span class="f-logo-s">Studio</span></a
-      >
-      <p class="f-text">
-        Increase the flow of customers and sales for your business with digital
-        marketing & growth solutions.
-      </p>
+      <div class="container ftr-container">
+        <a class="logo" href="./index.html"
+          >Web<span class="f-logo-s">Studio</span></a
+        >
+        <p class="f-text">
+          Increase the flow of customers and sales for your business with
+          digital marketing & growth solutions.
+        </p>
+      </div>
     </footer>
   </body>
 </html>
