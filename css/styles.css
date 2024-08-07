@@ -147,6 +147,7 @@ body {
 
 .ttl-sect {
   background: #2e2f42;
+  padding: 188px 0;
 }
 .hero-ttl {
   display: flex;
@@ -309,13 +310,13 @@ body {
   flex-direction: column;
 }
 .logo-footer {
+  display: inline-block;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  display: inline-block;
   margin-bottom: 16px;
 }
 
