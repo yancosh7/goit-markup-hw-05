@@ -305,10 +305,10 @@ body {
   background: #2e2f42;
   padding: 100px 0;
 }
-.ftr-container {
+/* .ftr-container {
   display: flex;
   flex-direction: column;
-}
+} */
 .logo-footer {
   display: inline-block;
   font-weight: 700;
