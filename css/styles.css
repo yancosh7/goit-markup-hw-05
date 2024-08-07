@@ -49,6 +49,7 @@ img {
 }
 
 .section {
+  padding: 188px 0;
 }
 
 .container {
@@ -78,7 +79,6 @@ body {
 .navbar {
   display: flex;
   align-items: center;
-  /* gap: 76px; */
 }
 .logo {
   width: 115px;
@@ -147,15 +147,12 @@ body {
 
 .ttl-sect {
   background: #2e2f42;
-  padding: 188px 0;
 }
 .hero-ttl {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 48px;
-  /* padding-top: 188px;
-  padding-bottom: 188px; */
 }
 .title {
   text-align: center;
@@ -208,14 +205,9 @@ body {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.sect-page-text {
-  padding: 120px 0;
-}
 .pag-cont-list {
   display: flex;
   gap: 24px;
-  /* margin-top: 120px;
-  margin-bottom: 120px; */
 }
 .pag-cont-item {
   flex-basis: calc((100% - 72px) / 4);
@@ -228,14 +220,10 @@ body {
 
 .our-team-sect {
   background: #f4f4fd;
-  padding: 120px 0;
 }
 .our-team-cont {
   display: flex;
   flex-direction: column;
-  /* padding-top: 120px;
-  padding-bottom: 120px;
-  gap: 72px; */
 }
 .title-team {
   text-transform: capitalize;
@@ -251,12 +239,10 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  /* gap: 32px; */
   border-radius: 0 0 4px 4px;
   /* padding: 0px 0px 32px 0px; */
   width: 264px;
   height: 380px;
-
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   background: #fff;
@@ -266,7 +252,6 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  /* gap: 8px; */
   padding: 32px 0;
 }
 .title-card {
@@ -279,15 +264,9 @@ body {
 
 /* Our Portfolio */
 
-.sect-our-port {
-  padding: 120px 0;
-}
-
 .our-port-cont {
   display: flex;
   flex-direction: column;
-  /* gap: 72px;
-  margin-bottom: 120px; */
 }
 .prt-title {
   text-transform: capitalize;
@@ -305,8 +284,6 @@ body {
   align-items: flex-start;
   justify-content: center;
   flex-direction: column;
-  /* gap: 8px; */
-
   border-bottom: 1px solid #e7e9fc;
   border-left: 1px solid #e7e9fc;
   border-right: 1px solid #e7e9fc;
@@ -330,9 +307,6 @@ body {
 .ftr-container {
   display: flex;
   flex-direction: column;
-  /* gap: 16px;
-  padding-top: 100px;
-  padding-bottom: 100px; */
 }
 .logo-footer {
   font-weight: 700;
