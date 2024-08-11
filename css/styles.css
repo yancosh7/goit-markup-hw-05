@@ -128,7 +128,7 @@ body {
 }
 .address {
   font-style: normal;
-  font-family: "inherit";
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -147,7 +147,19 @@ body {
 
 .ttl-sect {
   background: #2e2f42;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office.jpg);
+  width: 1440px;
+  height: 600px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   padding: 188px 0;
+  margin: 0 auto;
 }
 .hero-ttl {
   display: flex;
@@ -165,6 +177,7 @@ body {
   max-width: 496px;
 }
 .btn {
+  display: block;
   background: #4d5ae5;
   cursor: pointer;
   font-family: "Roboto", sans-serif;
@@ -209,12 +222,32 @@ body {
 .pag-cont-list {
   display: flex;
   gap: 24px;
+  /* flex-basis: calc((100% - 72px) / 4); */
 }
 .pag-cont-item {
-  flex-basis: calc((100% - 72px) / 4);
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 8px;
+  width: 264px;
+}
+.icon-container {
+  display: inline-flex;
+
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  width: 264px;
+  height: 112px;
+  background: #f4f4fd;
+}
+.icon-content {
+  /* width: 64;
+  height: 64; */
+  padding: 24px 100px;
+  fill: #2e2f42;
 }
 .title-pag-cont {
-  margin-bottom: 8px;
 }
 
 /* Our Team */
@@ -240,10 +273,11 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  gap: 32px;
   border-radius: 0 0 4px 4px;
-  /* padding: 0px 0px 32px 0px; */
+  padding: 0px 0px 32px 0px;
   width: 264px;
-  height: 380px;
+
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   background: #fff;
@@ -253,14 +287,46 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding: 32px 0;
+  gap: 8px;
+  width: 232px;
 }
 .title-card {
   text-align: center;
-  margin-bottom: 8px;
 }
 .text-card {
   text-align: center;
+}
+
+.group-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 24px;
+  width: 232px;
+  height: 40px;
+}
+
+.icon-border {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: #4d5ae5;
+}
+
+.icon {
+  width: 16px;
+  height: 16px;
+  padding: auto;
+  fill: #f4f4fd;
+}
+.icon-border:hover,
+.icon-border:focus {
+  background-color: #404bbf;
 }
 
 /* Our Portfolio */
@@ -311,6 +377,7 @@ body {
 } */
 .logo-footer {
   display: inline-block;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
@@ -320,7 +387,7 @@ body {
   margin-bottom: 16px;
 }
 
-.logo-rooter-s {
+.logo-footer-s {
   color: #f4f4fd;
 }
 .f-text {
