@@ -269,7 +269,6 @@ body {
 }
 .icon-container {
   display: inline-flex;
-
   border: 1px solid #8e8f99;
   border-radius: 4px;
   width: 264px;
@@ -277,8 +276,6 @@ body {
   background: #f4f4fd;
 }
 .icon-content {
-  /* width: 64;
-  height: 64; */
   padding: 24px 100px;
   fill: #2e2f42;
 }
@@ -342,7 +339,7 @@ body {
   height: 40px;
 }
 
-.icon-border {
+.icon-cell {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -364,8 +361,8 @@ body {
   padding: auto;
   fill: #f4f4fd;
 }
-.icon-border:hover,
-.icon-border:focus {
+.icon-cell:hover,
+.icon-cell:focus {
   background-color: #404bbf;
 }
 
@@ -429,14 +426,32 @@ body {
 .prt-card:hover .descrpt-text {
   transform: translateY(0%);
 }
+.prt-card:hover,
+.prt-card:focus {
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  background: #fff;
+}
 
 /* Footer */
 .footer {
+  display: flex;
+  gap: 120px;
   background: #2e2f42;
   padding: 100px 0;
 }
+.ftr-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 0;
+  width: 264px;
+  height: 112px;
+  margin: 0 0 0 156px;
+}
 .logo-footer {
   display: inline-block;
+
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -444,7 +459,6 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  margin-bottom: 16px;
 }
 
 .logo-footer-s {
@@ -453,4 +467,45 @@ body {
 .f-text {
   color: #f4f4fd;
   width: 264px;
+}
+.soc-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 208px;
+  height: 80px;
+  padding: 0;
+}
+.title-soc-f {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+}
+.soc-icons {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 16px;
+}
+.icon-soc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: #4d5ae5;
+
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 80ms;
+}
+.icon-soc:hover,
+.icon-soc:focus {
+  background-color: #31d0aa;
 }
