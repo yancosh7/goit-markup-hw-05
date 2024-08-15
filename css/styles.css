@@ -420,10 +420,9 @@ body {
 
 /* Footer */
 .footer {
-  display: flex;
-  gap: 120px;
   background: #2e2f42;
   padding: 100px 0;
+  margin: 0;
 }
 .ftr-container {
   display: flex;
@@ -441,6 +440,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-bottom: 16px;
 }
 
 .logo-footer-s {
